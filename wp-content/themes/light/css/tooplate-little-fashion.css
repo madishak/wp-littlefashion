@@ -895,10 +895,16 @@ button:focus:not(:focus-visible) {
 
 .product-image {
   transition: all 0.5s ease-out;
+  background-color: #ececec;
+  text-align: center;
 }
 
 .product-thumb:hover .product-image {
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+.product-image__single {
+  background-color: transparent;
 }
 
 .product-top {
@@ -1179,5 +1185,12 @@ button:focus:not(:focus-visible) {
   .full-image-img {
     bottom: 0;
   }
+}
+
+
+.product-image img {
+  width: 100%;
+  max-width: 415px;
+  height: auto;
 }
 

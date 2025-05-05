@@ -241,7 +241,7 @@ $query_featured_products = array(
                         <div class="col-lg-4 col-12 mb-3">
                             <div class="product-thumb">
                                 <a href="<?php the_permalink(); ?>">
-                                    <div class="img-fluid product-image"><?php the_post_thumbnail(array(415, 415)) ?></div>
+                                    <div class="img-fluid product-image"><?php the_post_thumbnail('goods_img') ?></div>
                                 </a>
 
                                 <div class="product-top d-flex">

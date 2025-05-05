@@ -24,7 +24,7 @@
 
                         <div class="col-lg-6 col-12">
                             <div class="product-thumb">
-                                <div class="img-fluid product-image"><?php the_post_thumbnail(array(636, 636)) ?></div>
+                                <div class="img-fluid product-image product-image__single"><?php the_post_thumbnail('goods_img') ?></div>
                             </div>
                         </div>
 
@@ -103,7 +103,7 @@ $query_might_like_products = array(
                         <div class="col-lg-4 col-12 mb-3">
                             <div class="product-thumb">
                                 <a href="<?php the_permalink(); ?>">
-                                    <div class="img-fluid product-image"><?php the_post_thumbnail(array(415, 415)) ?></div>
+                                    <div class="img-fluid product-image"><?php the_post_thumbnail('goods_img') ?></div>
                                 </a>
 
                                 <div class="product-top d-flex">

@@ -20,4 +20,7 @@ function theme_add_scripts() {
 }
 
 
+add_theme_support( 'post-thumbnails' );
+add_image_size( 'goods_img', 415, 415, true );
+
 ?>
