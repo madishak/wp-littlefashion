@@ -37,6 +37,7 @@
                                 </div>
 
                                 <small class="product-price text-muted ms-auto mt-auto mb-5">$25</small>
+                                 <!-- <small class="product-price text-muted ms-auto mt-auto mb-5"></small> -->
                             </div>
 
                             <div class="product-description">
