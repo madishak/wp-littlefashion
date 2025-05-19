@@ -48,9 +48,9 @@ https://www.tooplate.com/view/2127-little-fashion
                     </a>
 
                     <div class="d-lg-none">
-                        <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+                        <a href="<?php echo get_site_url() . '/sign_in' ?>" class="bi-person custom-icon me-3"></a>
 
-                        <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                        <a href="<?php echo get_site_url() . '/products' ?>" class="bi-bag custom-icon"></a>
                     </div>
 
                     <div class="collapse navbar-collapse" id="navbarNav">
